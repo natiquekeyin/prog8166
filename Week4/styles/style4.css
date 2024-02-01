@@ -1,0 +1,77 @@
+/* h1 {
+  color: blue;
+}
+
+div p {
+  color: red;
+}
+
+#x {
+  text-decoration: underline;
+}
+/* Testing  
+.demo {
+  color: red;
+  background-color: black;
+/* } */
+
+/* h1,
+h2,
+h3 {
+  background-color: black;
+  color: white;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Robotto", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  border: 3px solid green;
+  padding: 10px;
+  width: 300px;
+}
+
+#x2 {
+  border: 10px solid red;
+  padding: 20px;
+}
+
+main {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#one {
+  flex: 1;
+}
+
+#two {
+  flex: 2;
+}
+
+#three {
+  flex: 1;
+}

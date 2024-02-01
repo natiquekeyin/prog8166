@@ -1,0 +1,49 @@
+After HTML5, all stylings are now done in CSS. And NO styling is allowed by using html itself
+
+CSS(Cascading Style Sheets)
+To give styles to the webpage..ONLY CSS is used!
+
+CSS Syntax:
+CSS is made up of rules, broken into 2 parts:
+    1. A selector: the element or group of elements that need to have style on
+    2. Declaration: A key/value pairs reprenting the style to be applied to...
+
+Where to put CSS?
+ 1. The browser CSS:Web browser is also called "user agent"...
+ 2. Inline CSS: when we define style within the element itself...
+ 3. Internal CSS: When we define style in the <head> section of the document..
+
+  <style>
+      h1 {
+        color: yellow;
+        background-color: green;
+      }
+
+      h2 {
+        color: blue;
+        background-color: black;
+      }
+
+      p {
+        font-size: 20px;
+      }
+    </style>
+ 4. External File(s):When we define an exaternal style file and link it to the page...
+
+NB: NO TWO ELEMENTS SHOULD HAVE SAME ID...
+
+ What are Selectors:
+ 1. By Tagname..
+ 2. By ID... #id{ }
+ 3. By class
+ 4. Contextual Selector: some element within some specific context...
+ 5. Grouping selectors:
+
+
+ Using differnt fonts on our webpage:
+
+
+ CSS Box Model:
+    Every element in HTML refers to a "box" in CSS...
+
+Flex box model:

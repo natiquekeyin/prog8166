@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* file for Section 3 */
+/* div p {
+  font-size: 20px;
+  color: green;
+}
+
+#p2 {
+  color: red;
+}
+
+.demo {
+  background-color: black;
+  color: white;
+}
+
+div h3 {
+  color: brown;
+} */
+
+/* h1,
+p,
+h3 {
+  color: red;
+} tesying */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.info-box {
+  border: solid green;
+}
+
+.info-box p {
+  font-size: 25px;
+}
+
+.info-box span {
+  font-weight: bold;
+}
+
+h1 {
+  border: 1px solid red;
+  width: 350px;
+  padding: 10px;
+  margin: 0;
+}
+
+#t1 {
+  border: 20px solid green;
+  padding: 20px;
+}
+
+main {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#one {
+  flex: 1;
+}
+
+#two {
+  flex: 1;
+}
+
+#three {
+  flex: 1;
+}

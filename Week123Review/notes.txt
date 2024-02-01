@@ -1,0 +1,82 @@
+Review of Three weeks (Week 1,2, and 3): January 30,2024
+
+What is an element in HTML?
+    A combination of "starting tag" "the content" and "ending tag"
+
+    <a> contents </a>
+    Empty elements:
+    <img /> self closing element 
+    <meta/>
+
+What is a tag in HTML?
+    A combination of "<" some text and ">" is called a tag!
+    <a>, <b>, <table>...
+
+What are HTML entities:
+&copy;
+&reg;
+
+
+What are syntactical elements necessary for an html document?
+    <html></html>
+    <head></head>
+    <body></body>
+    "Valid HTML Document"
+
+What are some semantic elements:
+OPTIONAL:
+<header></header>
+<main></main>
+<footer></footer>
+<section></section>
+<aside></aside>
+<nav></nav>
+<h1>...<h6>..h1 is semantically the most important heading on the page...
+
+
+Text content boxes:
+<div>..</div> a generic container..
+<ol>.. </ol> Ordered list...1,2,3
+<ul>...</ul> unordered list bullets...
+<li> .. </li> List item
+<p>..</p>... a paragraph..
+<blockquote>...</blockquote> and extended quotation....
+
+Block level and Inline elements:
+
+1. Block-level elements: create a "block" of content in a page... and do not allow anything before or afer them....
+
+2. Inline elements.: create "inline" content.. which is a part of the containing block and the allow contents after or before them...
+
+
+Tables in HTML:
+<table>..</table>
+<thead>..</thead>
+<tbody>...</tbody>
+<tfoot>..</tfoot>
+
+To make rows and columns we have:
+<tr> a single row in a table
+<td> a single cell that contains the data
+<th> a header row...title of the column
+
+
+
+Absolute and relative path:
+Absolute path is full path including the root folder...
+
+Relative path..find on the index.html..
+
+Linking in HTML:
+
+Linking can be internally or externally...
+
+
+
+
+
+
+
+
+
+
