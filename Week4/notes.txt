@@ -35,7 +35,7 @@ NB: NO TWO ELEMENTS SHOULD HAVE SAME ID...
  What are Selectors:
  1. By Tagname..
  2. By ID... #id{ }
- 3. By class
+ 3. By class..(.demo{})
  4. Contextual Selector: some element within some specific context...
  5. Grouping selectors:
 

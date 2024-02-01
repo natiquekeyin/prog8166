@@ -6,7 +6,7 @@ What is an element in HTML?
     <a> contents </a>
     Empty elements:
     <img /> self closing element 
-    <meta/>
+    <meta/> <br/> <hr/>
 
 What is a tag in HTML?
     A combination of "<" some text and ">" is called a tag!
@@ -14,7 +14,7 @@ What is a tag in HTML?
 
 What are HTML entities:
 &copy;
-&reg;
+&reg; 
 
 
 What are syntactical elements necessary for an html document?
