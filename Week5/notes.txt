@@ -1,0 +1,159 @@
+CSS Units:
+
+16px = 12pt = 100% = 1em 
+
+em: is a responsive unit .. it literally means the width of the capital letter "M"..adapts its size from parent... "rem"
+
+Media Queries: WE hae discussed..
+
+JavaScript: Front end web technology! JS(JavaScript)
+
+    lightweight, interpreted or JIT(Just in time) compiled language meant to be embedded in host environments. for example browsers
+
+    JS looks similar to C and C++ in its syntax, VERY different in philosophy...
+
+    JS and ES5 ES6.. ECMA SCRIPT .. ECMA(European COmputer Manufactures Association..)stand body responsible for JS language...ES5 ES6..ES2022...
+
+Unlike C which is compiled.. javascript is meant to run within a host environment...there are many possible environments...
+    1. Web browser...
+    2. node.js...[console based application...on servers...]
+    3. REPL (Read-Eval-Print-Loop)
+
+Important Ideas:
+Like C, JS is also case sensitive...
+camelCase...
+
+let myName;
+let MyName;//pascal case
+let my-name; //kebob case
+let my_name; //snake case...
+
+Semicolons are optional BUT recommended..
+Comments same as C/C++ // , /* */
+
+whitesapce is ignored in JS...
+
+Statements in JS are single line of instruction ended by Semicolons
+
+Blocks: { } opening and closing curly brackets...
+
+Functions:most important building block of JS program...THEY ARE VERY DIFFERNT HERE .. than C language..JS treats functions like variables...passed to other functions returned froma function etc..etc..
+
+Variables are declared using the let keyword, var keyword or const keyword...
+
+Variables have same naming rules as C/C++..
+
+Data types: JS is a typeless language...you don;t need to specifiay a type for your data...
+
+1. Number 
+2. String
+3. Boolean
+4. Object -> function, array, Date.. and many more...
+5. null - a valued that means "it is intentionally nothing vs undefined..
+6. undefined: a special value that indicates a values has never been defined....
+
+
+let s1="some text" ... String
+let s2='some text'... string.. (in c it is for character)
+let s3='133'... string...
+let s4= '133'+5;....string...
+let n1 = 155; ... Number
+let n2 = 143.22; Number
+let b1 = true; ... Boolean
+let b2 = false;... Boolean
+let c;   undefined....
+let d=null... object... nul..
+
+int main(void){
+
+    const float pi=3.14159f;
+    float radius = 4.2;
+    float area;                  // area is a float
+
+    area = pi * radius * radius; // calculate area from radius
+
+    printf("Area = %f\n", area); // copy area to standard output
+
+    return 0;
+}
+//in JS:
+const pi=3.14159;
+let radius = 4.2;
+let area;
+
+area=pi*radius*radius;
+console.log("Area = "+ area);
+
+
+Operators:
++,-, * , / ,
+ 
+ ++ , -- operators 
+ Increment /decrement operators....
+Pre-post increment...
+
+Coercion: == , it implicitly converts one side and then compares...
+=== is called "Strict Equality operator"
+
+typeof
+
+Ternary operator:
+condition?vlaue if ture :value if false..
+
+
+Strings: 
+" " 
+' '
+` `
+
+
+Functions: 
+    1. User defined functions
+    2. Pre defined functions /built in functions
+
+User Defined functions:
+    1. Function Declarations
+    2. Function Expressions
+    3. Arrow Functions...
+
+    1. Function declarations:
+        function foo(){
+
+        }
+
+        function square(n){
+            return n*n;
+        }
+
+        function add(a,b){
+            return a+b;
+        }
+
+
+2. Function Expressions:
+When we define a variable and allocate a function to it...
+ 
+ let foo = function(){} //anonymous...
+
+ let square = function(n){return n*n;}
+
+ let add=function(a,b){return a+b;}
+
+3. Arrow functions:
+
+let foo = ()=>{ }
+
+let square = (n)=> n*n;
+
+let add=(a,b)=>a+b;
+
+Missing Arguments:
+
+
+Practice Question:
+Write a function findMatches() that accepts one argument and a list of numbers... and prints how many times the number has appeared in the list...
+
+findMatches(2,1,2,3,2) will print 2
+findMatches(2,1,2,3,2,6,2,4,2) will print 4
+
+When you submit it .. on my private chat...This will be attendance for today :)

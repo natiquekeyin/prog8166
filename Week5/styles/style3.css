@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 40px;
+}
+
+header,
+main {
+  max-width: 600px;
+}
+
+header h1,
+header h2 {
+  font-family: "Roboto Flex", sans-serif;
+}
+
+header h2 {
+  color: red;
+  font-size: 0.7rem;
+}
+
+header p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+main {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 550px;
+  text-align: justify;
+}
+
+#credit {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+.firstletter {
+  font-size: 75px;
+  line-height: 60px;
+  float: left;
+  padding-top: 4px;
+  padding-right: 8px;
+}
+
+#nm {
+  font-style: normal;
+}
+
+#nm a {
+  text-decoration: none;
+  color: lightgreen;
+}
+
+#nm a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+#social {
+  display: none;
+  text-align: center;
+}
+
+#social i {
+  margin-right: 20px;
+}
+@media screen and (max-width: 600px) {
+  body {
+    margin: 5px;
+    width: 100%;
+  }
+  #social {
+    display: block;
+  }
+}
