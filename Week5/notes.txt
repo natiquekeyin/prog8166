@@ -4,7 +4,7 @@ CSS Units:
 
 em: is a responsive unit .. it literally means the width of the capital letter "M"..adapts its size from parent... "rem"
 
-Media Queries: WE hae discussed..
+Media Queries: WE have discussed..
 
 JavaScript: Front end web technology! JS(JavaScript)
 
@@ -21,6 +21,7 @@ Unlike C which is compiled.. javascript is meant to run within a host environmen
 
 Important Ideas:
 Like C, JS is also case sensitive...
+
 camelCase...
 
 let myName;
@@ -39,11 +40,14 @@ Blocks: { } opening and closing curly brackets...
 
 Functions:most important building block of JS program...THEY ARE VERY DIFFERNT HERE .. than C language..JS treats functions like variables...passed to other functions returned froma function etc..etc..
 
+let add=function() { }
+
 Variables are declared using the let keyword, var keyword or const keyword...
 
 Variables have same naming rules as C/C++..
 
-Data types: JS is a typeless language...you don;t need to specifiay a type for your data...
+
+Data types: JS is a typeless language...you don't need to specify a type for your data...
 
 1. Number 
 2. String
@@ -54,7 +58,7 @@ Data types: JS is a typeless language...you don;t need to specifiay a type for y
 
 
 let s1="some text" ... String
-let s2='some text'... string.. (in c it is for character)
+let s2='some text'... string.. (in c it is for character char x='X';)
 let s3='133'... string...
 let s4= '133'+5;....string...
 let n1 = 155; ... Number
@@ -62,7 +66,7 @@ let n2 = 143.22; Number
 let b1 = true; ... Boolean
 let b2 = false;... Boolean
 let c;   undefined....
-let d=null... object... nul..
+let d=null... object... null..
 
 int main(void){
 
@@ -98,13 +102,13 @@ Coercion: == , it implicitly converts one side and then compares...
 typeof
 
 Ternary operator:
-condition?vlaue if ture :value if false..
+condition?vlaue if true :value if false..
 
 
 Strings: 
 " " 
 ' '
-` `
+` ` string literal...string interpolation...
 
 
 Functions: 

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+body {
+  margin: 40px;
+  font-weight: 100;
+}
+
+header h1,
+header h2 {
+  font-family: "Irvin-Heading";
+}
+
+header h2 {
+  color: red;
+  font-size: 0.9rem;
+}
+
+header h1 {
+  font-size: 2.1rem;
+}
+
+main,
+header {
+  max-width: 500px;
+}
+
+#author {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  font-family: "EB Garamond", serif;
+  line-height: 1.9;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+/* Drop cap */
+#firstletter {
+  font-size: 4.5rem;
+  line-height: 60px;
+  float: left;
+  padding-right: 8px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+#credit {
+  color: gray;
+  font-style: normal;
+  font-size: 0.7rem;
+}
+
+#credit a {
+  color: gray;
+  text-decoration: none;
+}
+
+#credit a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#social {
+  display: none;
+}
+
+#social i {
+  margin-right: 40px;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    text-align: center;
+  }
+
+  body {
+    margin: 10px;
+    width: 100%;
+  }
+
+  #social {
+    display: block;
+  }
+}
