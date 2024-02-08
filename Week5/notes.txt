@@ -2,7 +2,7 @@ CSS Units:
 
 16px = 12pt = 100% = 1em 
 
-em: is a responsive unit .. it literally means the width of the capital letter "M"..adapts its size from parent... "rem"
+em: is a responsive unit .. it literally means the width of the capital letter "M"..adapts its size from parent... "rem" adapts from root
 
 Media Queries: WE have discussed..
 
@@ -81,6 +81,7 @@ int main(void){
     return 0;
 }
 //in JS:
+
 const pi=3.14159;
 let radius = 4.2;
 let area;
@@ -158,6 +159,6 @@ Practice Question:
 Write a function findMatches() that accepts one argument and a list of numbers... and prints how many times the number has appeared in the list...
 
 findMatches(2,1,2,3,2) will print 2
-findMatches(2,1,2,3,2,6,2,4,2) will print 4
+findMatches(3,1,2,3,2,6,2,4,2) will print 1
 
 When you submit it .. on my private chat...This will be attendance for today :)
