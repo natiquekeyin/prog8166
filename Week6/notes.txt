@@ -1,0 +1,134 @@
+Objects and Object Oriented Programming in JavaScript:
+
+const char name1[31]="MY name is so and so";
+
+char str[30];
+
+strlen(str); 
+strcpy(str2,str);
+strcmp(str2,str);
+stcat(str, "...")
+
+let str = "Hello";
+let str2 = new String("Hello world");
+
+let count = str.length;
+str.cmp(str2);
+str = str.cat("..");
+
+split( ) literally splits the given  string into an array...
+
+join( ) converts an array into a string by using the provided...
+
+Arrays in JavaScript:
+let arr = [1,2,4,5];
+let arr1 = new Array(3,4,4,5);
+
+
+let position=[42.5894,-80.2334];
+
+let lat = position[0];
+let lng = position[1];
+
+
+let[lat, lng] = position;
+Destructuring!
+
+let dateString = '13/02/2024';
+undefined
+let[day,month,year] = dateString.split("/");
+undefined
+console.log(`The day is ${day}, month is ${month}, and year is ${year}`);
+VM1760:1 The day is 13, month is 02, and year is 2024
+
+
+
+let emailAddress = 'alansmith@gmail.com';
+undefined
+let[userName,domainName] = emailAddress.split("@");
+undefined
+userName
+'alansmith'
+domainName
+'gmail.com'
+let[userName] = emailAddress.split("@");
+undefined
+userName
+'alansmith'
+domainName
+'gmail.com'
+let[userName] = "noman@conestoga.com".split("@");
+undefined
+userName
+'noman'
+domainName
+'gmail.com'
+let[,domainName] = "noman@conestoga.com".split("@");
+undefined
+domainName
+'conestoga.com'
+
+
+Array Properties and Methods:
+arr.length;
+
+Methods that alter the array:
+arr.push(); insert at the end
+arr.unshift(); insert at the beginning...
+arr.shift():
+arr.pop();
+
+
+
+Methods that do not alter the array:
+arr.concat([4,5],6);returns a new array with original array joined together with other arrays or values provided.
+
+
+Methods for iterating accross elements in an Array:
+
+arr.forEach(function); calls the provided function on each element of the array..
+arr.map(function); creates and returns a new array constructred by calling the provided function on each element of the original array..
+arr.filter(function); creates and returns a new array containing only those elemnts that match a condition you define in your function...
+
+
+Regular Expressions:
+    Special string that describes a pattern to be used for matching, searching or replacing somethign within other strins...regex, regexp. In JS, we refer to them by RegExp...built in object...
+
+    let re = /colou?r/g;
+    let re2 = new RegExp("colou?r");
+
+    Specific characters:
+    .  any character....
+    [] set of possible characters,....
+    ^ reverses the set in [ ]
+    \d means any number (digit 0 - 9 ) \D means reverse of digit...
+    \w means anything from a-zA-Z0-9_ \W means reverse of word
+    \s whitespace...
+
+    Repition:
+    ? optional character!
+    * zero or more something...
+    +  one or more...
+    {} exact numbers...
+    {n,} n or more characters...
+    {n,m} minimum n and maxium m...
+    ( ) capture groups... 
+    ^ to mark the start of the string
+    $ to mark the end of the string....
+
+    Our phone number RE:
+
+    (\(?\d{3}\)?)?[\s-]*\d{3}[\s-]*\d{4} 
+
+
+    .test( ) tests a string against the regular expression and returns true or false..
+
+    
+
+    // CLEAN THIS DATA BY USING RE AND STRING FUNCTIONS...
+
+/*
+ 1234, Alan Smith, 519-123-4567, 62 inches
+ 1235, Christina Lee, 226-123-4567, 69 inches
+ 1236, Kim Thomas, 226-123-4567, 78 inches
+*/
