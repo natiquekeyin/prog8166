@@ -18,7 +18,7 @@ str = str.cat("..");
 
 split( ) literally splits the given  string into an array...
 
-join( ) converts an array into a string by using the provided...
+join( ) converts an array into a string by using the provided character......
 
 Arrays in JavaScript:
 let arr = [1,2,4,5];
@@ -33,6 +33,8 @@ let lng = position[1];
 
 let[lat, lng] = position;
 Destructuring!
+
+
 
 let dateString = '13/02/2024';
 undefined
@@ -92,16 +94,20 @@ arr.filter(function); creates and returns a new array containing only those elem
 
 
 Regular Expressions:
-    Special string that describes a pattern to be used for matching, searching or replacing somethign within other strins...regex, regexp. In JS, we refer to them by RegExp...built in object...
+    Special string that describes a pattern to be used for matching, searching or replacing somethign within other strings...regex, regexp. In JS, we refer to them by RegExp...built in object...
 
-    let re = /colou?r/g;
+    let re = /colou?r/;
     let re2 = new RegExp("colou?r");
+
+
+
+
 
     Specific characters:
     .  any character....
     [] set of possible characters,....
     ^ reverses the set in [ ]
-    \d means any number (digit 0 - 9 ) \D means reverse of digit...
+    \d means any number (digit 0 - 9 ) \D means reverse of digit...OR ^
     \w means anything from a-zA-Z0-9_ \W means reverse of word
     \s whitespace...
 
