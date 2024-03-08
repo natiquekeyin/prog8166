@@ -1,0 +1,36 @@
+DOM (Document Object Model)
+    An API that enables HTML,CSS to talk to JavaScript and vice versa.
+
+    DOM creates a DOM Tree within browser memory and we can manipulate the elements in that...
+
+    DOM Tree represents the html elements in an upside down tree with html being the root...
+    
+ Steps in DOM programming:
+    1. Finding refernce to the elements:
+     document.body etc... IT IS VERY GENERAL
+     a. getElementById(id)
+     b. querySelector(selector) & querySelectorAll(selector)
+        selector can be: i) Tag name, ii) ID, iii) Class
+    2. Creating and embedding new elements:
+        createElement() that creates a new element...
+    3. Changing/altering the contents or attributes of the elements...
+
+    4. Run code in response to the events triggered by user, browser or other code...
+
+
+Objects in JavaScript:
+let x=10;
+let y=[1,2,3];
+
+
+let obj = { };
+
+let obj2={ name:"Alan Smith",age:20,email:"alan@gmail.com" }
+
+Constructor function in JavaScript:
+
+function User(){
+
+}
+
+A funtion that starts with a capital letter is called "constructor" in javascript.
