@@ -93,7 +93,9 @@ class Store {
   }
 
   //   try completing this function..15 minutes class task! 15 minutes.. I will be back after 30 minutes..
-  static removeBook() {}
+  static removeBook() {
+    // complete this!
+  }
 }
 
 // books =[{"title":"Java"}]
