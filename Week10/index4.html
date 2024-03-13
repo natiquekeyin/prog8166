@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form
+      action="data.php"
+      method="get"
+      name="registration"
+      id="registeration"
+      onsubmit="return checkInput()"
+    >
+      <div>
+        <label for="">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="">Password</label>
+        <input type="password" name="pwd" id="pwd" />
+      </div>
+      <div>
+        <input type="hidden" name="hiddenField" value="Something" />
+      </div>
+      <div>
+        <select name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat" selected>Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+      <div>
+        <input type="checkbox" name="vehicle" value="Bike" /> I have a bike<br />
+        <input type="checkbox" name="vehicle" value="Car" /> I have a car<br />
+        <input type="checkbox" name="vehicle" value="Boat" /> I have a boat<br />
+      </div>
+      <div>
+        <input type="radio" name="gender" value="male" /> Male<br />
+        <input type="radio" name="gender" value="female" /> Female<br />
+      </div>
+      <div>
+        <input type="submit" value="Register" />
+        <input type="reset" value="Clear" />
+      </div>
+    </form>
+
+    <script>
+      function checkInput() {
+        let name = document.querySelector("#name").value;
+
+        if (name === "") {
+          alert("Name field cannot be empty");
+          return false;
+        }
+        return true;
+      }
+    </script>
+  </body>
+</html>
+<!-- new commit -->
