@@ -1,3 +1,5 @@
+// Script for Section 3...
+
 let form = document.querySelector("#book-form");
 window.addEventListener("DOMContentLoaded", function (e) {
   Store.displayBooks();
